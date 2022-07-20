@@ -1,0 +1,8 @@
+body {
+    margin: 10px;
+}
+
+/* start with https and end with .com/ */
+a[href^="https"][href$=".com/"] {
+    color: orange;
+}
