@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 600px;
+    height: 200px;
+    /* background-color: rgb(235, 227, 16, 0.5); */
+    /* background-color: #ebe310; */
+    /* background-color: hsla(58, 87%, 49%, 0.5); */
+    /* background: linear-gradient(45deg,dodgerblue 10%, yellow 60%, tomato 80%); */
+    /* background: radial-gradient(circle at top left, white 20%,dodgerblue 30%, yellow 50%, tomato 90%); */
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 11%, rgba(250,241,1,1) 20%, rgba(0,157,255,1) 41%, rgba(181,46,14,1) 64%);
+}

@@ -1,0 +1,12 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(235, 227, 16, 0.5); */
+    /* background-color: #ebe310; */
+    /* background-color: hsla(58, 87%, 49%, 0.5); */
+    background-color: hsl(19deg 85% 37% / 78%);
+}

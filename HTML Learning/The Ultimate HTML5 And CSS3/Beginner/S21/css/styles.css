@@ -1,0 +1,20 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(41, 250, 86);
+    /* order is important here*/
+    border: 10px dashed royalblue;
+    border-width: 10px; /* trbl */
+    border-style: dashed;
+    border-radius: 5px;
+    box-shadow: 0 0 100px gray;
+ }
+
+ h1 {
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+ }
