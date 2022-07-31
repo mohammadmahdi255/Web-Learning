@@ -1,0 +1,11 @@
+body {
+    margin: 10px;
+}
+
+p {
+    padding: 10px 20px; /* vertical horizontal */
+    border: 5px solid tomato;
+    padding: 5px;
+    /* margins collapse */
+    margin: 20px; 
+}

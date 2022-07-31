@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery img:nth-of-type(3) {
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+    }
+}

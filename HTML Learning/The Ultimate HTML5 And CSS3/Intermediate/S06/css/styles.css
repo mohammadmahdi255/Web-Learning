@@ -1,0 +1,31 @@
+html {
+    /* 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+body {
+    margin: 10px;
+    height: 200vh;
+}
+
+.tweet {
+    border: 3px solid lightgray;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.clear {
+    clear: both;
+}

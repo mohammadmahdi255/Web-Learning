@@ -1,0 +1,49 @@
+html {
+    /* 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+body {
+    margin: 10px;
+}
+
+.container {
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+    height: 90vh;
+}
+
+.box {
+    /* flex-grow: 0; */
+    /* flex-shrink: 0; */
+    /* grow - grow [shrink | basis] - grow shrink basis */
+    flex: 0 0 15rem;
+    width: 1rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+.box-one {
+    /* align-items */
+    align-self: flex-start;
+    flex-grow: 2.5;
+    flex-shrink: 2.5;
+}
+
+.box-two {
+    /* align-items */
+    align-self: center;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+
+.box-three {
+    /* align-items */
+    align-self: flex-end;
+}

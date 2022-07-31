@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    /* 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+body {
+    margin: 1rem;
+    height: 200vh;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    border: 5px solid gold;
+    position: relative;
+    height: 240px;
+}
+
+.box {
+    position: inherit;
+    background-color: dodgerblue;
+    margin: 1rem;
+    height: 5rem;
+    width: 10vw;
+}
+
+.box-one {
+    top: 1rem;
+    left: 10vw;
+}
+
+.box-two {
+    top: 2rem;
+    left: 20vw;
+}
+
+.box-three {
+    top: 3rem;
+    left: 30vw;
+}
