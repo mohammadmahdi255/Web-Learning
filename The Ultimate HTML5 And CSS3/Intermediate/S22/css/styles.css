@@ -1,0 +1,8 @@
+html {
+    /* 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+.meal:hover {
+    filter: grayscale(70%) blur(3px);
+} 

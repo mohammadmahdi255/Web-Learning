@@ -1,0 +1,24 @@
+html {
+    /* 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+body {
+    background: url("/images/bg-sanfrancisco.jpg");
+    background-repeat: repeat-y;
+    background-position: 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+}
+
+.meal {
+    width: 30vw;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+h1 {
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+}

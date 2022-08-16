@@ -1,0 +1,40 @@
+html {
+    /* 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+.bg {
+    background: url("/images/css_sprites-combined.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.bg-dishes {
+    width: 100px;
+    height: 100px;
+    background-position: 0 0;
+}
+
+.bg-landing {
+    width: 100px;
+    height: 100px;
+    background-position: -100px 0;
+}
+
+.bg-rocketship {
+    width: 100px;
+    height: 100px;
+    background-position: -200px 0;
+}
+
+.bg-saturn {
+    width: 100px;
+    height: 100px;
+    background-position: -300px 0;
+}
+
+.bg-ufo {
+    width: 100px;
+    height: 100px;
+    background-position: -400px 0;
+}
